@@ -11,9 +11,12 @@ body {
     text-align: center;
 }
 
-#responseOutput {
+#signatureOutput {
     margin-top: 20px;
     border: 1px solid #ccc;
     padding: 10px;
-    word-wrap: break-word;
+    word-wrap: break-word; /* Ako već nije dodano, osigurava prelamanje teksta */
+    max-width: 600px; /* Ograničava širinu potpisa */
+    overflow-wrap: break-word; /* Osigurava prelamanje na svim uređajima i preglednicima */
+    white-space: pre-wrap; /* Poštuje white-space u potpisu */
 }
