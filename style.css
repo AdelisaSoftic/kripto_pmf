@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+#responseOutput {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    word-wrap: break-word;
+}
