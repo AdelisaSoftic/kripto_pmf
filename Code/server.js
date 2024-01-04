@@ -9,6 +9,7 @@ const port = 3000;
 app.use(cors());
 app.use(fileUpload());
 
+
 // Generiranje ključeva
 function generateKeys() {
     const { publicKey, privateKey } = crypto.generateKeyPairSync('rsa', {
@@ -36,6 +37,8 @@ app.post('/sign', (req, res) => {
 
     res.send({ signature });
 });
+
+
 
 app.listen(port, () => {
     console.log(`Server running on port ${port}`);

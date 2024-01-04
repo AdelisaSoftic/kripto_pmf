@@ -20,3 +20,31 @@ body {
     overflow-wrap: break-word; /* Osigurava prelamanje na svim uređajima i preglednicima */
     white-space: pre-wrap; /* Poštuje white-space u potpisu */
 }
+
+.custom-file-input {
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.custom-file-input:hover {
+    background-color: #0056b3;
+}
+
+#signBtn{
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+}
+#signBtn:hover{
+    background-color: #0056b3;
+}
