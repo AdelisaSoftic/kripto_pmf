@@ -5,6 +5,8 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-image: url("elektronski-potpis-2.webp");
+    background-size: cover;
 }
 
 .container {
@@ -25,20 +27,20 @@ body {
     display: inline-block;
     padding: 10px 15px;
     cursor: pointer;
-    background-color: #007bff;
+    background-color: #4232a8;
     color: white;
     border-radius: 5px;
     font-size: 16px;
 }
 .custom-file-input:hover {
-    background-color: #0056b3;
+    background-color: #4232a8;
 }
 
 #signBtn{
     display: inline-block;
     padding: 10px 15px;
     cursor: pointer;
-    background-color: #007bff;
+    background-color: #4232a8;
     color: white;
     border-radius: 5px;
     font-size: 16px;
@@ -46,5 +48,5 @@ body {
     border: none;
 }
 #signBtn:hover{
-    background-color: #0056b3;
+    background-color: #4232a8;
 }
